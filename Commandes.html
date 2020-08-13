@@ -19,28 +19,45 @@
             <a href="index.html" class="logo"><img src="src/img/logo v2 blanc png.png" width="75" height="75 "></a>
             <!-- MENU -->
             <ul class="menu">
-              <li><a  href="index.html">ACCEUIL</a></li>
-              <li><a href="Commandes.html" style="color: #e84118;">PASSER COMMANDE</a></li>
-              <li><a href="#">A PROPOS</a></li>
-              <li><a href="#">GALLERIE</a></li>
+              <li><a  href="#">ACCEUIL</a></li>
+              <li><a href="#" style="color: #e84118;">PASSER COMMANDE</a></li>
+              <li><a href="#">A PROPROS</a></li>
+              <li><a href="gallery.html">GALLERIE</a></li>
             </ul>
             <a href="#" class="lang">FR</a>
           </nav>
 
-          <div class="gallery">
-              <img class="img-gallery1"src="src/img/gallery (1).png">
-              <img class="img-gallery2" src="src/img/gallery (6).png" alt="">
-              <img class="img-gallery3" src="src/img/gallery (8).png" alt="">
-              <img class="img-gallery4" src="src/img/gallery (7).png" alt="">
-          </div>
 
-          </div>  
+          
 
+
+<form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>   
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Your Role: <select name="role[]" multiple>
+      <option value="leader">Leader</option>
+      <option value="follower">Follower</option>
+    </select></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
+
+           
 
         </section>
 
         
-
+       
       
     <!------------------ NAVBAR ----------------------->
     
