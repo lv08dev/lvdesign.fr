@@ -2,6 +2,7 @@ body{
     margin: 0px;
     padding: 0px;
     background-color: #2f3640;
+    width: 100vh;
     
 
 }
@@ -576,4 +577,31 @@ nav{
     top: 50%;
     left: 50%;
     transform: translate(45%,-20%);
+}
+
+
+/* index.html */
+
+.btn-box-index{
+    width: 200px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#e84118;
+    color: #fff;
+    box-shadow: 5px 1px 10px black;
+    transform: translate(60%,450%);
+}
+
+.box a{
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.box a:hover{
+    background-color: #353b48;
+    transition: all ease 1.5;
+    color: #e84118;
 }
