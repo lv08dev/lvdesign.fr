@@ -125,7 +125,7 @@ nav{
     justify-content: center;
     align-items: center;
     background-color: #fff;
-    color: #292929;
+    color: #fff;
     box-shadow: 5px 1px 10px black
     
 
@@ -139,6 +139,7 @@ nav{
 .cv-btn:hover{
     background-color: #fff;
     transition: all ease 0.5;
+    color: #e84118;
 }
 
 
@@ -324,4 +325,25 @@ nav{
     top: 50%;
     left: 50%;
     transform: translate(-5%,-10%);
+}
+
+
+.name a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.box2{
+    width: 1000px;
+    height: 600px;
+    background: #f5f6fa;
+    color: #fff;
+    position: absolute;
+    transform: translate(25%,15%);
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px black;
+
 }
