@@ -432,7 +432,7 @@ nav{
     transform: translate(15%,-25%);
     box-sizing: border-box;
     border-radius: 5px;
-    box-shadow: 0px 2px 10px black;
+    /* box-shadow: 0px 2px 10px black; */
 }
 
 
@@ -445,7 +445,7 @@ nav{
     transform: translate(130%,-25%);
     box-sizing: border-box;
     border-radius: 5px;
-    box-shadow: 0px 2px 10px black;
+    /* box-shadow: 0px 2px 10px black; */
 }
 
 .box-in-box3{
@@ -457,7 +457,7 @@ nav{
     transform: translate(245%,-25%);
     box-sizing: border-box;
     border-radius: 5px;
-    box-shadow: 0px 2px 10px black;
+    /* box-shadow: 0px 2px 10px black; */
 }
 
 .box-in-box4{
@@ -469,7 +469,7 @@ nav{
     transform: translate(360%,-25%);
     box-sizing: border-box;
     border-radius: 5px;
-    box-shadow: 0px 2px 10px black;
+    /* box-shadow: 0px 2px 10px black; */
 }
 
 /* btn box-inbox */
